@@ -155,7 +155,7 @@ describe("BFS", function() {
     expect(binarySearchTree.bfs()).toEqual([15, 10, 20, 1, 12, 50, 5]);
   });
 });
-/*
+
 describe("remove", function() {
   it("remove should correctly remove a node with no children", function() {
     let binarySearchTree = new BinarySearchTree();
@@ -245,7 +245,7 @@ describe("remove", function() {
     expect(binarySearchTree.root.right.right.right.left.left.val).toBe(89); // 89
   });
 });
-
+/*
 describe("isBalanced", function() {
   it("checks if it is balanced", function() {
     var binarySearchTree = new BinarySearchTree();
